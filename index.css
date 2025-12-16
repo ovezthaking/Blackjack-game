@@ -20,3 +20,9 @@ h1 {
 #message-el {
     font-style: italic;
 }
+
+#start {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+}
