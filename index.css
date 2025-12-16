@@ -25,4 +25,8 @@ h1 {
     color: #016f32;
     width: 150px;
     background-color: goldenrod;
+    padding: 5px 0px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
 }

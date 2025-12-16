@@ -17,6 +17,6 @@ const startGame = () =>{
         message = "You're out of the game! 😭"
         isAlive = false
     }
-
+    console.log(message)
 }
-console.log(message)
+
