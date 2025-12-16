@@ -9,7 +9,12 @@ let sumEl = document.querySelector('#sum-el')
 let cardsEl = document.querySelector('#cards-el')
 
 
-const startGame = () =>{
+const startGame = () => {
+    renderGame()
+}
+
+
+const renderGame = () =>{
     sumEl.textContent = `Sum: ${sum}`
     cardsEl.textContent = `Cards: ${firstCard} ${secondCard}`
     if (sum <= 20) {
