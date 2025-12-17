@@ -18,8 +18,9 @@ function getRandomCard() {
 
 const startGame = () => {
     isAlive = true
-
-    cards.push(getRandomCard(), getRandomCard())
+    hasBlackJack = false
+    cards = [getRandomCard(), getRandomCard()]
+    sum = 0
     for (card of cards) sum += card
     renderGame()
 }
