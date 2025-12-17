@@ -43,14 +43,14 @@ const renderGame = () =>{
 
 
 const newCard = () => {
-    console.log('Drawing a new card from the deck!')
+    if (isAlive && !hasBlackJack){
+        console.log('Drawing a new card from the deck!')
 
-    let card = getRandomCard()
+        let card = getRandomCard()
+        sum += card
+        cards.push(card)
 
-    sum += card
-
-    cards.push(card)
-
-    renderGame()
+        renderGame()
+    }
 }
 
