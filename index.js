@@ -38,6 +38,8 @@ const newCard = () => {
 
     sum += card
 
+    cards.push(card)
+
     startGame()
 }
 
