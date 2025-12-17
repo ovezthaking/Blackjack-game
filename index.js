@@ -20,9 +20,7 @@ const startGame = () => {
     isAlive = true
 
     cards.push(getRandomCard(), getRandomCard())
-    console.log(cards)
     for (card of cards) sum += card
-    console.log(cards)
     renderGame()
 }
 
