@@ -11,7 +11,10 @@ let cardsEl = document.querySelector('#cards-el')
 
 
 function getRandomCard() {
-    return Math.floor(Math.random() * 13 + 1)
+    const card = Math.floor(Math.random() * 13 + 1)
+    if (card === 1) return 11
+    if (card === 11 || card === 12 || card === 13) return 10
+    return card
 }
 
 
